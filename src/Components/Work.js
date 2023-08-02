@@ -11,7 +11,7 @@ const Work = () => {
         <input type="text" className="generalInfo" placeholder="Start Date" />
         <input type="text" className="generalInfo" placeholder="End Date" />
         
-        <input type="text" className="generalInfo" placeholder="main responsibilities of your jobs" />
+        <input type="text" className="generalInfo" placeholder="Main Responsibilities Of Your Job" />
         <button className="btn">Add</button>
       </form>
     </div>
