@@ -1,6 +1,6 @@
 import React from "react";
 
-const Education = () => {
+const Work = () => {
   return(
     <div className="infoContainer">
     <h2>Work Experience</h2>
@@ -18,4 +18,4 @@ const Education = () => {
   )
 };
 
-export default Education;
+export default Work;
