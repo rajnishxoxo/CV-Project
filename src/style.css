@@ -1,0 +1,45 @@
+#headerDiv {
+  font-size: 2.1rem;
+  margin-bottom: 20px;
+  padding: 15px 0;
+  text-align: center;
+  width: 100%;
+  background-color: #2b3440;
+  color: white;
+}
+
+.infoContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 600px;
+  box-sizing: border-box;
+  color: #050505;
+  background-color: #f4f5f4;
+  font-family: Poppins, sans-serif;
+  margin: 0;
+  padding: 0;
+  margin-left: 20px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+ 
+}
+
+.generalInfo {
+  border: none;
+  border-radius: 7px;
+  display: block;
+  margin: 10px;
+  height: 60px;
+  min-width: 90%;
+  padding: 0 10px;
+  font-size: 20px;
+}
+
+.btn{
+    background-color: #2b3440;
+    width: 95%;
+    padding: 15px;
+    color: white;
+    font-size: 20px;
+    border-radius: 10px;
+}
