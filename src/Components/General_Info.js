@@ -1,13 +1,13 @@
 import React, { useState } from "react";
 
-export const General_Info = ({ onFirstNameChange }) => {
-  const[firstName,SetFirstName]=useState('');
+export const General_Info = () => {
+  const[firstName,SetFirstName]=useState("");
 
   const handleChangeFirstName =(e)=>{
     SetFirstName(e.target.value);
-    onFirstNameChange(firstName);
   }
 
+ 
   return (
     <div className="infoContainer">
       <form>
