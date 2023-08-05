@@ -1,16 +1,17 @@
 import React from "react";
-import { General_Info } from "./General_Info";
-const Display = () => {
+const Display = (props) => {
+ console.log(props)
   return (
     <div className="display_MainContainer">
       <div className="upper-section">
         <div className="upper-left">
-          <p></p>
+          {/* for 1st and last name */}
+          <p>{props.first} {props.last}</p>
         </div>
         <div className="upper-right">
-            <p>📌 </p>
-            <p>☎️</p>
-            <p>💌 </p>
+            <p>📌{props.address} </p>
+            <p>☎️{props.phone}</p>
+            <p>💌{props.email} </p>
         </div>
       </div>
     </div>
