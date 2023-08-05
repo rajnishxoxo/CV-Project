@@ -1,8 +1,7 @@
-.parent{
+.parent {
   display: flex;
   flex-direction: row;
 }
-
 
 #headerDiv {
   font-size: 2.1rem;
@@ -27,7 +26,6 @@
   padding: 0;
   margin-left: 20px;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
- 
 }
 
 .generalInfo {
@@ -41,19 +39,46 @@
   font-size: 20px;
 }
 
-.btn{
-    background-color: #2b3440;
-    width: 95%;
-    padding: 15px;
-    color: white;
-    font-size: 20px;
-    border-radius: 10px;
+.btn {
+  background-color: #2b3440;
+  width: 95%;
+  padding: 15px;
+  color: white;
+  font-size: 20px;
+  border-radius: 10px;
 }
 
-.display_MainContainer{
+.display_MainContainer {
   width: 700px;
   height: 1000px;
-  border: 1px solid black;
+  border: 2px solid black;
   margin-top: 10px;
-
 }
+.upper-section {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  border-bottom: 1px solid black;
+  
+}
+
+.upper-left {
+  width: 60%;
+  
+}
+
+.upper-left > p {
+  margin: 10px;
+  font-size: 60px;
+  color: #9f49ff;
+  font-weight: bold;
+}
+
+.upper-right {
+  width: 40%;
+}
+
+.upper-right>p{
+  font-size: 20px;
+}
+

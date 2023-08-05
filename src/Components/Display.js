@@ -1,12 +1,20 @@
 import React from "react";
 
 const Display = () => {
-  return(
+  return (
     <div className="display_MainContainer">
-        <h1>Hello</h1>
-    
+      <div className="upper-section">
+        <div className="upper-left">
+          <p></p>
+        </div>
+        <div className="upper-right">
+            <p>📌 </p>
+            <p>☎️</p>
+            <p>💌 </p>
+        </div>
+      </div>
     </div>
-  )
+  );
 };
 
 export default Display;
