@@ -1,7 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import Header from "./Header";
-import General_Info from "./General_Info";
+import { General_Info } from "./General_Info";
 import Education from "./Education";
 import Work from "./Work";
 import Display from "./Display";
@@ -9,6 +9,8 @@ import Display from "./Display";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
 const App = () => {
+
+
   return (
     <>
     <Header/>

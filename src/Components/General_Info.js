@@ -1,11 +1,18 @@
-import React from "react";
+import React, { useState } from "react";
 
-const General_Info = () => {
+export const General_Info = ({ onFirstNameChange }) => {
+  const[firstName,SetFirstName]=useState('');
+
+  const handleChangeFirstName =(e)=>{
+    SetFirstName(e.target.value);
+    onFirstNameChange(firstName);
+  }
+
   return (
     <div className="infoContainer">
       <form>
       
-        <input type="text" className="generalInfo" placeholder="FirstName"/>
+        <input type="text" className="generalInfo" placeholder="FirstName" value={firstName} onChange={handleChangeFirstName}/>
         <input type="text" className="generalInfo" placeholder="LastName" />
         <input type="text" className="generalInfo" placeholder="Title" />
         <input type="text" className="generalInfo" placeholder="Address" />
@@ -16,6 +23,3 @@ const General_Info = () => {
     </div>
   );
 };
-
-
-export default General_Info

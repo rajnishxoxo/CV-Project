@@ -1,5 +1,5 @@
 import React from "react";
-
+import { General_Info } from "./General_Info";
 const Display = () => {
   return (
     <div className="display_MainContainer">
