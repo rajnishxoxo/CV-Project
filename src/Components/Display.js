@@ -20,6 +20,10 @@ const Display = (props) => {
         <div>
           <h2 className="heading">Education</h2>
         </div>
+        <div className="education-container">
+          <p>Mechanical</p>
+          <p>RTMNU || <span>2015-2020</span></p>
+        </div>
       </div>
     </div>
   );

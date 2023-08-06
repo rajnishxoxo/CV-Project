@@ -81,4 +81,26 @@
 .upper-right>p{
   font-size: 20px;
 }
+.education-section{
+  width: 100%;
+
+}
+
+.heading{
+  font-size: 30px;
+  color: #4a4155;
+  margin: 0 15px;  
+}
+
+.education-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: 25px;
+  font-weight: 400;
+  margin: 0 15px;  
+
+}
+
+
 
