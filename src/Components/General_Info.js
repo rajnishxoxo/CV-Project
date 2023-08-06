@@ -1,10 +1,6 @@
 
 export const General_Info = ({ handleChangeFirstName , handleLastNameChange , handleAddress , handlePhone,handleEmail}) => {
-  // const[firstName,SetFirstName]=useState("");
-
-  // const handleChangeFirstName =(e)=>{
-  //   SetFirstName(e.target.value);
-  // }
+  
 
  
   return (

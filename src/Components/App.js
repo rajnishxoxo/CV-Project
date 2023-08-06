@@ -10,7 +10,6 @@ import { useState } from "react";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
 const App = () => {
-
   const [firstName, setFirstName] = useState("");
 
   const ChangeFirstName = (e) => {
@@ -23,39 +22,50 @@ const App = () => {
     setLastName(e.target.value);
   };
 
-  const [address , setAddress] = useState('')
+  const [address, setAddress] = useState("");
 
-  const changeAddress =(e)=>{
+  const changeAddress = (e) => {
     setAddress(e.target.value);
-  }
+  };
 
-  const[phoneNumber , setPhoneNumber] = useState('')
+  const [phoneNumber, setPhoneNumber] = useState("");
 
-  const handlePhone =(e)=>{
-    setPhoneNumber(e.target.value)
-  }
+  const handlePhone = (e) => {
+    setPhoneNumber(e.target.value);
+  };
 
-  const [email , setEmail] =useState('');
+  const [email, setEmail] = useState("");
 
-  const handleEmail =(e)=>{
-    setEmail(e.target.value)
-  }
-
+  const handleEmail = (e) => {
+    setEmail(e.target.value);
+  };
 
   return (
     <>
-    <Header/>
-    <div className="parent">
-      <div className="main_container">
-        <General_Info  handleChangeFirstName={ChangeFirstName}  handleLastNameChange={changeLastName} handleAddress={changeAddress} handlePhone={handlePhone} handleEmail={handleEmail}/>
-        <Education />
-        <Work />
-      </div>
+      <Header />
+      <div className="parent">
+        <div className="main_container">
+          <General_Info
+            handleChangeFirstName={ChangeFirstName}
+            handleLastNameChange={changeLastName}
+            handleAddress={changeAddress}
+            handlePhone={handlePhone}
+            handleEmail={handleEmail}
+          />
+          <Education />
+          <Work />
+        </div>
 
-      <div className="display-container">
-        <Display first={firstName} last={lastName} address={address} phone={phoneNumber} email={email}/>
+        <div className="display-container">
+          <Display
+            first={firstName}
+            last={lastName}
+            address={address}
+            phone={phoneNumber}
+            email={email}
+          />
+        </div>
       </div>
-    </div>
     </>
   );
 };
