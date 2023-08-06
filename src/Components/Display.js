@@ -21,7 +21,7 @@ const Display = (props) => {
           <h2 className="heading">Education</h2>
         </div>
         <div className="education-container">
-          <p>Mechanical</p>
+          <p>{props.course}</p>
           <p>RTMNU || <span>2015-2020</span></p>
         </div>
       </div>

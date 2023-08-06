@@ -40,6 +40,21 @@ const App = () => {
     setEmail(e.target.value);
   };
 
+  // For Education. 
+
+  
+
+  const [course , setCourse ] = useState('');
+
+  const handleCourse = (e)=>{
+
+    setCourse(e.target.value);
+  }
+
+ 
+
+
+
   return (
     <>
       <Header />
@@ -52,7 +67,7 @@ const App = () => {
             handlePhone={handlePhone}
             handleEmail={handleEmail}
           />
-          <Education />
+          <Education  handleCourse={handleCourse} />
           <Work />
         </div>
 
@@ -63,6 +78,7 @@ const App = () => {
             address={address}
             phone={phoneNumber}
             email={email}
+            course={course}
           />
         </div>
       </div>
