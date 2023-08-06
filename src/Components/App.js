@@ -72,14 +72,14 @@ const App = () => {
         </div>
 
         <div className="display-container">
-          <Display
-            first={firstName}
-            last={lastName}
-            address={address}
-            phone={phoneNumber}
-            email={email}
-            course={course}
-          />
+        <Display
+        first={firstName}
+        last={lastName}
+        address={address}
+        phone={phoneNumber}
+        email={email}
+        course={course}
+      />
         </div>
       </div>
     </>
